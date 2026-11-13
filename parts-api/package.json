@@ -1,0 +1,7 @@
+{
+  "name": "parts-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": { "start": "node --max-old-space-size=4096 server.js" },
+  "dependencies": { "express": "^4.19.2", "helmet": "^7.1.0", "iconv-lite": "^0.6.3" }
+}
